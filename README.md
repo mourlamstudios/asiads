@@ -3,7 +3,7 @@ asiads
 
 iAds for OpenFL (iPhone + iPad)
 
-h3.Methods:
+h3. Methods:
 
 //Create and attach iAd to main window but initially set to hidden
 AsiAds.Init();
@@ -17,7 +17,7 @@ AsiAds.HideAd();
 //Remove the ad completely (ie. In-app purchase removed adverts)
 AsiAds.RemoveAd();
 
-h3.Events:
+h3. Events:
 
 * AsiAdsEvent.ACTION_START  
 * AsiAdsEvent.ACTION_END  
@@ -33,7 +33,7 @@ public function showMyAds(evt:Event)
 	AsiAds.ShowAd();  
 }  
 
-h3.Installation:
+h3. Installation:
 
 **sudo bash install.sh**  
 
